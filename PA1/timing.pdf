@@ -1,0 +1,109 @@
+arraylist.py tests
+
+iterated head insertion:
+[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+iterated head deletion:
+[]
+iterated tail insertion:
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+first element index:
+0
+last element index:
+10
+print list (should be: a, b, b, c, d)
+['a', 'b', 'b', 'c', 'd']
+list length, or last:
+5
+retrieve element at index 3 (should return 'c')
+c
+locate first index of 'b' (should return 1)
+1
+return next element after 'd' (should return None)
+None
+return previous of 'd' index (should return 3)
+3
+
+
+pointerlist.py tests
+
+head insertion:
+list should be [5 4 3 2 1]:
+5
+4
+3
+2
+1
+delete first and last elements (should be 4 3 2)
+4
+3
+2
+
+return pointer to first cell and its element, 4:
+<pointerlist.cell instance at 0x7fae1f027758> element: 4
+
+return pointer to next cell from 4 and its element (should be 3)
+<pointerlist.cell instance at 0x7fae1f027710> element:  3
+
+return pointer to last cell and its element (should be 2)
+<pointerlist.cell instance at 0x7fae1f0276c8> element: 2
+
+previous cell from 2 (should be 3)
+<pointerlist.cell instance at 0x7fae1f027710> element:  3
+3 is located at index (should be 1) 1
+At index 2, the element (should be 2) 2
+Make list empty and printlist (should return empty)
+Empty Pointer List
+
+
+Creating new stack, is it empty?
+True
+Iterated insert of 10 elements into stack
+Attempting to print top of stack, which should be 9...
+990
+Attempting to pop 3 elements, top should then be 6...
+993
+Is stack empty now?
+False
+Popping last 7 elements. Empty now?
+True
+What's the top element though?
+1000
+Pushing a few elements, then making stack empty through makenull..
+Stack is empty.
+Creating new stack, is it empty?
+True
+Iterated insert of 10 elements into stack
+Attempting to print top of stack, which should be 9...
+9
+Attempting to pop 3 elements, top should then be 6...
+6
+Is stack empty now?
+False
+Popping last 7 elements. Empty now?
+True
+What's the top element though?
+Error retrieving top: stack is empty.
+None
+Pushing a few elements, then making stack empty through makenull..
+Error popping element: stack is empty.
+('List data structure head insertion time for 1000 elements (millisecond): ', 0.94921875)
+('Arraylist head insertion time for 1000 elements (millisecond): ', 9.093994140625)
+('Pointerlist head insertion time for 1000 elements (millisecond): ', 4.302001953125)
+('List data structure tail insertion time for 1000 elements (millisecond): ', 0.196044921875)
+('Arraylist tail insertion time for 1000 elements (millisecond): ', 0.998046875)
+('Pointerlist tail insertion time for 1000 elements (millisecond): ', 552.066162109375)
+('List data structure traversal time for 1000 elements (millisecond): ', 0.1240234375)
+('Arraylist traversal time for 1000 elements (millisecond): ', 1.177978515625)
+('Pointerlist traversal time for 1000 elements (millisecond): ', 1090.1279296875)
+('List data structure head deletion time for 1000 elements (millisecond): ', 0.5009765625)
+('Arraylist head deletion time for 1000 elements (millisecond): ', 127.4267578125)
+('Pointerlist head deletion time for 1000 elements (millisecond): ', 1.091064453125)
+('List data structure tail deletion time for 1000 elements (millisecond): ', 0.251953125)
+('Arraylist tail deletion time for 1000 elements (millisecond): ', 1.73095703125)
+('Pointerlist tail deletion time for 1000 elements (millisecond): ', 4452.177978515625)
+('Stack data structure push insertion time for 1000 elements (millisecond): ', 0.362060546875)
+('Arraystack push insertion time for 1000 elements (millisecond): ', 0.723876953125)
+('Pointerstack push insertion time for 1000 elements (millisecond): ', 2.333984375)
+('Stack data structure pop deletion time for 1000 elements (millisecond): ', 0.33984375)
+('Arraystack pop deletion time for 1000 elements (millisecond): ', 1.1328125)
+('Pointerstack pop deletion time for 1000 elements (millisecond): ', 1.3330078125)
